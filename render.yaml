@@ -1,0 +1,8 @@
+version: 1
+services:
+  - name: my-web-service
+    env:
+      - key: NODE_ENV
+        value: production
+    buildCommand: npm install
+    startCommand: npm start
