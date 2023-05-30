@@ -1,10 +1,10 @@
 {
-  "name": "votting-app-server",
+  "name": "supamenu-app-server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npx babel-node src/server.js"
+    "start": "node -r esm src/server.js"
   },
   "author": "",
   "license": "ISC",
